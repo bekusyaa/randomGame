@@ -31,7 +31,7 @@ function checkGuess() {
         if(userGuess < randomNumber) {
             lowOrHi.textContent = 'Last guess was too low!';
         } else if(userGuess > randomNumber) {
-            lowOrHi.textContent = 'Last guess was too hogh!';
+            lowOrHi.textContent = 'Last guess was too high!';
         }
     }
 
